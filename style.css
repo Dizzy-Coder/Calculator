@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+button{
+    width: 50px;
+    height: 40px;
+    margin: 9px 8px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#e{
+    width: 120px;
+}
+
+.calc{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(224, 78, 78);
+    border-radius: 8PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.copyright{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.disp{
+    height: 70px;
+    width: 260px;
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ans{
+    margin-top: 10px;
+    margin-left: auto;
+}
